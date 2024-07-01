@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNU Chaitra - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            color: #333;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FNU Chaitra</h1>
+        <p>Consultant | Data Analyst | Business Analyst</p>
+        <div class="contact-info">
+            <p>Phone: +1 331-251-9202</p>
+            <p>Email: <a href="mailto:Chaitrareddy4321@gmail.com">Chaitrareddy4321@gmail.com</a></p>
+            <p>LinkedIn | GitHub</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+    </nav>
+
+    <div class="container">
+        <section id="work-experience" class="section">
+            <h2>Work Experience</h2>
+            <h3>Consultant – Data Analysis & Visualization | CompuTech Digital</h3>
+            <p>05/2024 – Present</p>
+
+            <h3>ERP - SAP Consultant | Ernst & Young (EY)</h3>
+            <p>05/2021 – 12/2022</p>
+            <ul>
+                <li>Primary liaison between the business units and the technology teams for the procure to pay process (Sales and Distribution, Warehouse Management)</li>
+                <li>Spearheaded solution design, development, and testing of Adobe forms, Smart forms, ALV reports from functional specification.</li>
+                <li>Experience in SAP Sales and Distribution - Order to Cash (OTC) Cycle, Master Data & Logistics Execution, Sales Reporting as Functional Consultant</li>
+                <li>Cross-functional collaboration for SDLC, ERP implementation, development, documenting business case.</li>
+            </ul>
+
+            <h3>Data Analyst | Hocket Technologies</h3>
+            <p>09/2018 – 02/2019</p>
+            <ul>
+                <li>Implemented data cleansing strategies, resulting in a 15% improvement in data accuracy.</li>
+                <li>Converted insights from market and customers into business reporting, interactive dashboards and reports using Power BI.</li>
+                <li>Enhanced business performance by identifying underlying warehouse management system issues using data analysis concepts.</li>
+                <li>Analyzed and processed large sales data, resulting in a 20% reduction in data processing time.</li>
+                <li>Collaborated with founders on market research for gathering business requirements and user requirements.</li>
+            </ul>
+
+            <h3>Business Analyst Intern | Goodera Pvt. Ltd.</h3>
+            <p>09/2020 – 12/2020</p>
+            <ul>
+                <li>Created and delivered a marketing plan for the brand across- website, emails, and social media which resulted in 30% higher reach for the “KARMA SUMMIT” campaign.</li>
+                <li>Analyzed data to derive insights on new lead generation, reporting formulation and make recommendations to stakeholders using the CRM tool HubSpot.</li>
+                <li>Utilized analytical tools like Twitter Analytics, LinkedIn Analytics, Facebook Analytics, and Google Analytics for performance tracking and insight gathering for marketing campaign.</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p>M.S in Business Analytics | Benedictine University, GPA - 4/4 (01/2023-05/2024)</p>
+            <p>MBA | Xavier Institute of Management and Entrepreneurship, GPA - 3.96/4 (06/2019-05/2021)</p>
+            <p>Bachelors in Electronics Engineering | Ramaiah University, GPA – 3/4 (08/2014-06/2018)</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Management: SQL, R, Python, SQL Server, Advanced Excel, VLOOKUP, ER Diagrams.</li>
+                <li>Visualization: Data Visualization, Power BI, Tableau, Dashboards, Pivot Tables.</li>
+                <li>Statistics: Regression Modeling, Time Series, Analysis of Variance.</li>
+                <li>Others: Agile methodology, SDLC, Microsoft Office.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <h3>Airbnb Listings Analysis</h3>
+            <p>Developed and queried a database of 10,000+ Airbnb listings, detailing hosts, properties, neighborhoods, and reviews using SQL.</p>
+            <ul>
+                <li>Analyzed average prices, review scores, property distributions across 30 neighborhoods and created visuals using Tableau.</li>
+            </ul>
+
+            <h3>Retail Sales Analysis</h3>
+            <p>Conducted SQL analysis on 50,000+ retail sales records using MySQL, identifying top industries and sales trends.</p>
+            <ul>
+                <li>Utilized Tableau to analyze sales distribution, seasonality, and high-revenue sectors for strategic insights.</li>
+            </ul>
+
+            <h3>Library Database Management</h3>
+            <p>Designed a MySQL database schema for a library system with 10+ tables to manage books, authors, categories, and patrons.</p>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>SQL programming by LinkedIn.</li>
+                <li>Tableau Essential Training by NASBSA.</li>
+                <li>Business Analysis by PMI, IIBA.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
